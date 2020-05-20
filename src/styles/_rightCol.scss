@@ -1,0 +1,84 @@
+.rightToolbar {
+    border-bottom-width: 1px !important;
+}
+
+.rightTags {
+    .webix_template {
+        padding: 6px 10px 18px 10px;
+    }
+}
+
+.rightAccordion {
+
+    .webix_accordionitem {
+
+        .webix_accordionitem_header {
+            background-color: #F4F5F9;
+            border-bottom: none;
+            color: #313131;
+            font-size: 14px;
+            text-transform: uppercase;
+
+            .webix_accordionitem_button {
+                float: left;
+
+                &:before {
+                    content: "\F027";
+                }
+            }
+        }
+
+        &.vertical {
+            &>.webix_accordionitem_header {
+                &.collapsed {
+                    .webix_accordionitem_button {
+                        float: left;
+
+                        &:before {
+                            content: "\F028";
+                        }
+                    }
+                }
+            }
+        }
+
+        &.collapsed {
+            .webix_accordionitem_header {
+                color: #313131;
+
+                &:focus {
+                    background-color: #F4F5F9;
+                }
+
+                .webix_accordionitem_button {
+                    color: #94A1B3;
+                }
+            }
+        }
+    }
+}
+
+.webix_list_item {
+    &.listItem {
+        border: none;
+        box-sizing: border-box;
+        padding-left: 44px;
+        padding-top: 20px;
+        cursor: text;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .listTitle {
+        color: #313131;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 4px;
+    }
+
+    .listDescr {
+        color: #475466;
+        line-height: 20px;
+    }
+}

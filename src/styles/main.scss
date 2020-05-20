@@ -1,0 +1,51 @@
+@import "header";
+@import "table";
+@import "rightCol";
+@import "cmenu";
+
+.pointer {
+    cursor: pointer;
+}
+
+.green {
+    background-color: #55CD97;
+}
+
+.status {
+    border-radius: 50%;
+    border: 2px solid #657584;
+    box-sizing: content-box;
+    display: block;
+    position: relative;
+    bottom: 15px;
+    right: -22px;
+    height: 8px;
+    width: 8px;
+}
+
+.tag {
+    display: inline-block;
+    line-height: 24px;
+    color: #657584;
+    background-color: #EBEDF0;
+    border-radius: 100px;
+    margin: 3px 3px 0 0;
+    padding: 0 0 0 12px;
+
+    &_delete {
+        cursor: pointer;
+        user-select: none;
+        color: transparent;
+        margin: 0 4px;
+        padding: 0;
+        
+        &:after {
+            vertical-align: bottom;
+            margin-left: -9px;
+            font-size: 20px;
+            content: "\F033";
+            font-family: "Webix Material Icons";
+            color: #94A1B3;
+        }
+    }
+}

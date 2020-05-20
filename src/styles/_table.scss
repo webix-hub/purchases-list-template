@@ -1,0 +1,77 @@
+.tableToolbar {
+    border-top-width: 1px !important;
+
+    .tableToolbarSelect {
+
+        .mdi {
+            color: #94A1B3;
+        }
+
+        .webix_placeholder {
+            color: #475466;
+        }
+
+        .webix_inp_static {
+            border: none;
+            padding-left: 4px;
+            padding-right: 18px;
+            margin-top: 3px;
+            &:focus {
+                border: none;
+            }
+        }
+        
+        span.webix_input_icon {
+            width: 20px;
+            margin-top: 2px;
+            padding-left: 0px;
+        }
+    }
+    
+}
+
+.table {
+    background-color: #EBEDF0;
+
+    div[aria-level="1"] {
+        background-color: #EDF4F9;
+        font-weight: 500;
+    }
+
+    div[aria-level="2"] {
+        background-color: #FFFFFF;
+    }
+
+    .webix_cell {
+        .webix_tree_close,
+        .webix_tree_open {
+            margin-right: 4px;
+        }
+    }
+
+    .customIcon {
+        vertical-align: middle;
+        margin-bottom: 2px;
+        cursor: pointer;
+        &.mdi-checkbox-marked {
+            color: #1CA1C1;
+        }
+        &.mdi-checkbox-blank-outline {
+            color: #94A1B3;
+        }
+    }
+
+    &.webix_dtable_focused {
+        .webix_column {
+            &>  div.webix_row_select,
+                div.column_select {
+                background: #F4F5F9;
+            }
+        }
+    }
+
+    .webix_column > div, 
+    .webix_table_cell {
+        border-bottom-color: #DADEE0;
+    }
+}

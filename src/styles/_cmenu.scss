@@ -1,0 +1,30 @@
+.cmenu {
+    .webix_list_icon {
+        margin-right: 14px;
+    }
+    
+    &.webix_view {
+        .webix_icon {
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+    
+    .webix_context_separator {
+        .sep_line {
+            border-color: rgba(0, 0, 0, 0.05);
+            width: calc(100% - 16px);
+            margin: auto;
+        }
+    }
+}
+
+.cmenuItem {
+    display: flex;
+    align-items: center;
+}
+
+.cmenuKey {
+    margin-left: auto;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.38);
+}
