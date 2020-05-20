@@ -3,7 +3,7 @@ Webix Purchases List Template
 
 Check the Purchases List for ERP system from the Webix UI library.
 
-Purchases List live demo.
+[Purchases List live demo](https://webix-hub.github.io/purchases-list-template/dist/es5/index.html).
 
 Use this template as part of the ERP system for collecting requests and tracking the purchasing process of the necessary products or supplying the business with required materials. 
 
