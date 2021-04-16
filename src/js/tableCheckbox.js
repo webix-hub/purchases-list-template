@@ -2,7 +2,7 @@ webix.ui.datafilter.headerCheckbox = webix.extend({
 	refresh(master, node, config) {
 		node.onclick = () => {
 			config.checked = !config.checked;
-			node.firstChild.innerHTML = this.render(master, config);
+			node.innerHTML = this.render(master, config);
 
 			let column = master.getColumnConfig(config.columnId);
 			let checked = config.checked ? column.checkValue : column.uncheckValue;
