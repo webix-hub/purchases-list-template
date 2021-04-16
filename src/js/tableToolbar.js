@@ -24,10 +24,11 @@ export const tableToolbar = {
 				body: {
 					view: "list",
 					data: [
-						{id: 1, value: "Datacard"},
-						{id: 2, value: "Processor"},
-						{id: 3, value: "HDD"},
-						{id: 4, value: "Keyboard"}
+						{id: 1, value: ""},
+						{id: 2, value: "Datacard"},
+						{id: 3, value: "Processor"},
+						{id: 4, value: "HDD"},
+						{id: 5, value: "Keyboard"}
 					]
 				}
 			}
@@ -51,9 +52,10 @@ export const tableToolbar = {
 				body: {
 					view: "list",
 					data: [
-						{id: 1, value: "Vendor"},
-						{id: 2, value: "Product"},
-						{id: 3, value: "Price"}
+						{id: 1, value: ""},
+						{id: 2, value: "Vendor"},
+						{id: 3, value: "Product"},
+						{id: 4, value: "Price"}
 					]
 				}
 			}
